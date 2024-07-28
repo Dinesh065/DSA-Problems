@@ -14,7 +14,7 @@ int findMin(int arr[], int n, int m)
         return -1;
     }
 
-    sort(arr, arr+n);
+    sort(arr, arr+n); // Sort the array so that finding a subarray having min and max value becomes easy
     for(int i=0;i+m-1<n;i++)
     {
         int diff = arr[i+m-1]-arr[i];
