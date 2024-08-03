@@ -52,3 +52,5 @@ int main()
 
     return 0;
 }
+
+//another way is by finding the pivot (simply iterate through the array and once arr[i]>arr[i+1] break and store i in pivot and intialize left and right pointer largest and smallest number and than iterate until left>right and check for the element)
